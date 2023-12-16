@@ -1,0 +1,289 @@
+*  {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+h1,h2,h3,h4,h5,p{
+    margin: 0px;
+}
+
+a{ 
+    text-decoration: none;
+    color: inherit;
+}
+
+address {
+    font-style: normal
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+}
+.container__up{
+    width: 1187px;
+    height: 412px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.top__layn {
+    margin-bottom: 100px;
+}
+
+.main-page-wrapper {
+    background: url("./picture/headlineselefante.png") center top no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px; padding-left: 0px; padding-right: 51px;
+    align-items: center;
+    margin-bottom: 94px;
+}
+
+.logo__menu
+{display: flex;
+align-items: center;
+
+}
+
+.logo__icon {
+    margin-right: 14px;
+}
+
+.contact__graph {
+    float: right;
+    font-size: 13px;
+    margin-top: -7px;
+
+}
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 54px;
+    font-size: 14px;
+}
+
+.contacts__tel {
+    display: block;
+    text-decoration: none;
+    font-size: 26px;
+
+}
+
+.menu-down__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.preview__title {
+    font-size: 72px;
+    margin-bottom: 104px;
+}
+
+.menu-down__item {
+    font-size: 14px;
+}
+
+/* Закончил Хедер*/
+.conteiner__main {   
+    width: 1187px;
+    margin: 0 auto;   
+}
+
+button{
+    background: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+.button__main {
+    background: #f5170e;
+    border-radius: 35px;
+    height: 55px;
+    width: 168px;
+
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button--border{
+    background: transparent;
+    border-color: #f5170e;
+    color: #f5170e;
+    height: 55px;
+    width: 168px;
+}
+
+.waterfall {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.mankey {
+    display: flex;
+}
+
+.content {
+    padding: 15px 59px;
+}
+.Yang__Bey, .island {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+ .island_m, .water_yb {
+    font-size: 16px;
+    margin-bottom: 59px;
+ }
+
+ .paginator{
+    text-align: center;
+    margin-top: 68px;
+    margin-bottom: 173px
+}
+
+.paginator__display, .paginator__list, .paginator__item {display: inline-block;
+    
+}
+
+.paginator__list {
+    margin-left: 20px;
+}
+
+.paginator__link {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    line-height: 32px;
+    border-radius: 50%;
+    transition: -4s;
+}
+
+.paginator__display {
+    margin-left: 10px;
+    margin-block: 2px;
+    margin-bottom: 5px;
+}
+.ppaginator__link:hover {
+    color: #d2d1d1;
+    background: #cf2727;
+}
+
+/* Закончил  меню*/
+
+.conteiner__partners{   
+        width: 1187px;
+        height: 450px;
+        margin:  auto;
+        background-color: #F4F5F5;;
+        
+}
+
+
+
+.all_partners {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pobeda, .S7, .Sletat, .Lufthansa, .airBaltic, .Pegassus, .Ural, .Pegas {
+    width: 25%;
+    height: 129px;
+}
+
+.li.Ural{
+    margin-right: 60px;
+    margin-left: -60px;}
+
+.conteiner__partners {
+    font-size: 48px;
+}
+.text__partners{
+    margin-bottom: 83px;
+}
+
+/* Закончил партнеры*/
+
+.container__footer{   
+    width: 1187px;
+    height: 132px;
+    margin:  auto;
+    background-color: #001821;;;
+    margin-bottom: 40px;
+}
+
+
+
+.footer {
+     display: flex;
+     padding-top: 45px;
+    align-items: center;
+    color: #ffffff;
+}
+    
+    
+.footer__right{
+     padding-left: 29px;
+      float: right;
+ }
+.contacts__tel__fot {
+        margin-left: 10px;
+    }
+.footer__two-left {
+    margin-left: 20px;
+}    
+    
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+    
+.socials__list {
+    margin-left: 223px;
+}
+.socials {
+    margin-left: 45px;
+}
+
+.contacts__tel__fot {
+    margin-left: 0px;
+    font-size: 24px;
+}
+.cotacts__text_fot {font-size: 13px;
+    }
+.cotacts{
+    display: block;
+    margin-left: 35px;
+}
+
+
+
+
